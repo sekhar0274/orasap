@@ -1,11 +1,11 @@
 
-<project name="Service" default="war" basedir=".">
+<project name="Telebanking" default="war" basedir=".">
 
 
 	<!-- Define the properties used by the build -->
 
 	<property environment="env" />
-	<property name="app.name"      value="service"/>
+	<property name="app.name"      value="Telebaniking"/>
 	<property name="work.dir"    value="work"/>
 	<property name="war.dir"     value="war"/>
 	<property name="src.dir"      value="src"/>
