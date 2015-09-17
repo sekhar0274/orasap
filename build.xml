@@ -15,6 +15,7 @@
 	<!-- Define the CLASSPATH -->
 	<path id="compile.classpath">
 		<pathelement path="${env.CLASSPATH}"/>
+		<pathelement path="${java.CLASSPATH}"/>
 		<fileset dir="${web.dir}">
 			<include name="**/*.jar"/>
 		</fileset>
