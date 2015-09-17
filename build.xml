@@ -5,11 +5,11 @@
 	<!-- Define the properties used by the build -->
 
 	<property environment="env" />
-	<property name="app.name"      value="Telebaniking"/>
+	<property name="app.name"      value="Telebanking"/>
 	<property name="work.dir"    value="Target"/>
 	<property name="war.dir"     value="war"/>
 	<property name="src.dir"      value="src"/>
-	<property name="web.dir"      value="WebContent"/>
+	<property name="web.dir"      value="Web"/>
 
 
 	<!-- Define the CLASSPATH -->
