@@ -6,7 +6,7 @@
 
 	<property environment="env" />
 	<property name="app.name"      value="Telebaniking"/>
-	<property name="work.dir"    value="work"/>
+	<property name="work.dir"    value="Target"/>
 	<property name="war.dir"     value="war"/>
 	<property name="src.dir"      value="src"/>
 	<property name="web.dir"      value="WebContent"/>
