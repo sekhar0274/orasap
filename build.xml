@@ -53,6 +53,7 @@
 	
 	<target name="deploy" >
 		<echo> deploy to tomcat </echo>
+		<echo> deploy to tomcat </echo>
 	</target>
 
 </project>
