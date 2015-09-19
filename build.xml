@@ -50,5 +50,9 @@
 	<target name="war" depends="compile" description="Create WAR file ">
 		<war warfile="${war.dir}/${app.name}.war" basedir="${work.dir}"/>
 	</target>
+	
+	<target name="deploy" >
+		<echo> deploy to tomcat </echo>
+	</target>
 
 </project>
