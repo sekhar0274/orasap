@@ -5,17 +5,22 @@
 	<!-- Define the properties used by the build -->
 
 	<property environment="env" />
-	<property name="app.name"      value="Telebaniking"/>
+	<property name="app.name"      value="Telebanking"/>
 	<property name="work.dir"    value="Target"/>
 	<property name="war.dir"     value="war"/>
 	<property name="src.dir"      value="src"/>
+<<<<<<< HEAD
 	<property name="web.dir"      value="WebContent"/>
 	<property name="lib.dir"      value="lib"/>
+=======
+	<property name="web.dir"      value="Web"/>
+>>>>>>> Telebanking
 
 
 	<!-- Define the CLASSPATH -->
 	<path id="compile.classpath">
 		<pathelement path="${env.CLASSPATH}"/>
+		<pathelement path="${java.CLASSPATH}"/>
 		<fileset dir="${web.dir}">
 			<include name="**/*.jar"/>
 		</fileset>
